@@ -9,9 +9,7 @@ To use the frontend application, follow the instructions below:
 1. Ensure the backend API is deployed and accessible.
 2. Clone the frontend repository to your local machine.
 3. Install the necessary dependencies using the package manager of your choice (e.g., npm or yarn).
-4. 
-
-npm install or yarn install
+4. npm install or yarn install
 
 ## Features
 Transactions Table
