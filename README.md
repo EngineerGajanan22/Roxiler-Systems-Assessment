@@ -1,4 +1,4 @@
-# Product Transaction Management - Frontend
+# Frontend
 
 This frontend project is designed to interact with the backend APIs created for managing and analyzing product transactions. The frontend provides a user interface with a table and charts based on the fetched data from the backend.
 
@@ -10,12 +10,12 @@ To use the frontend application, follow the instructions below:
 2. Clone the frontend repository to your local machine.
 3. Install the necessary dependencies using the package manager of your choice (e.g., npm or yarn).
 
-```bash
+
 npm install
 # or
 yarn install
 
-Features
+## Features
 Transactions Table
 Select Month Dropdown:
 
@@ -39,5 +39,5 @@ Feel free to explore and interact with the frontend application to analyze produ
 
 Enjoy using the product transaction management system!
 
-Deployment
+## Deployment
 The frontend application is deployed and can be accessed at xyz.com.
