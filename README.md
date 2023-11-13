@@ -12,26 +12,25 @@ To use the frontend application, follow the instructions below:
 4. npm install or yarn install
 
 ## Features
-Transactions Table
-Select Month Dropdown:
 
-Displays January to December months as options.
-Defaults to March month.
-Allows selecting a different month to display transactions.
-Transactions List:
+### Transactions Table
 
-Utilizes the transactions listing API to list transactions in a table.
-Displays transactions of the selected month irrespective of the year using the API.
-Search transaction box filters transactions based on title/description/price using the API.
-Clears the search box to display the initial list of transactions for the selected month using the API.
-Next and Previous buttons load the next and previous page data from the API.
-Transactions Statistics
-Displays total sale amount, total sold items, and total not sold items for the selected month.
-Fetches data from the created API to populate the statistics box.
-Transactions Bar Chart
-Displays a bar chart showing the price range and the number of items in that range for the selected month.
-Applies the selected month from the dropdown (above the table) to fetch data from the API.
-Feel free to explore and interact with the frontend application to analyze product transactions. If you have any questions or issues, please refer to the documentation or contact the project maintainers.
+## Select Month Dropdown
+1.Displays January to December months as options.
+2.Defaults to March month.
+3.Allows selecting a different month to display transactions.
+## Transactions List
+1.Utilizes the transactions listing API to list transactions in a table.
+2.Displays transactions of the selected month irrespective of the year using the API.
+3.Search transaction box filters transactions based on title/description/price using the API.
+4.Clears the search box to display the initial list of transactions for the selected month using the API.
+5.Next and Previous buttons load the next and previous page data from the API.
+## Transactions Statistics
+1.Displays total sale amount, total sold items, and total not sold items for the selected month.
+2.Fetches data from the created API to populate the statistics box.
+## Transactions Bar Chart
+1.Displays a bar chart showing the price range and the number of items in that range for the selected month.
+2.Applies the selected month from the dropdown (above the table) to fetch data from the API.
 
 Enjoy using the product transaction management system!
 
