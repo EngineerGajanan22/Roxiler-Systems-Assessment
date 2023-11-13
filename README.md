@@ -35,4 +35,4 @@ To use the frontend application, follow the instructions below:
 Enjoy using the product transaction management system!
 
 ## Deployment
-The frontend application is deployed and can be accessed at xyz.com.
+The frontend application is deployed and can be accessed at [https://vijays-roxiler.onrender.com/](https://vijays-roxiler.onrender.com/).
