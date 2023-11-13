@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Product Transaction Management - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This frontend project is designed to interact with the backend APIs created for managing and analyzing product transactions. The frontend provides a user interface with a table and charts based on the fetched data from the backend.
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+To use the frontend application, follow the instructions below:
 
-### `npm start`
+1. Ensure the backend API is deployed and accessible.
+2. Clone the frontend repository to your local machine.
+3. Install the necessary dependencies using the package manager of your choice (e.g., npm or yarn).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+npm install
+# or
+yarn install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Features
+Transactions Table
+Select Month Dropdown:
 
-### `npm test`
+Displays January to December months as options.
+Defaults to March month.
+Allows selecting a different month to display transactions.
+Transactions List:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Utilizes the transactions listing API to list transactions in a table.
+Displays transactions of the selected month irrespective of the year using the API.
+Search transaction box filters transactions based on title/description/price using the API.
+Clears the search box to display the initial list of transactions for the selected month using the API.
+Next and Previous buttons load the next and previous page data from the API.
+Transactions Statistics
+Displays total sale amount, total sold items, and total not sold items for the selected month.
+Fetches data from the created API to populate the statistics box.
+Transactions Bar Chart
+Displays a bar chart showing the price range and the number of items in that range for the selected month.
+Applies the selected month from the dropdown (above the table) to fetch data from the API.
+Feel free to explore and interact with the frontend application to analyze product transactions. If you have any questions or issues, please refer to the documentation or contact the project maintainers.
 
-### `npm run build`
+Enjoy using the product transaction management system!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deployment
+The frontend application is deployed and can be accessed at xyz.com.
